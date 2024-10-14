@@ -2,7 +2,7 @@ from aiogram import Router, F, dispatcher
 from aiogram.filters import Command
 from aiogram.types import Message, CallbackQuery
 
-from keyboards import start_select_options
+from tarotbot.keyboards import start_select_options
 router = Router()
 
 

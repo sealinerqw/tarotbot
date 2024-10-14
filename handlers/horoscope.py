@@ -1,8 +1,8 @@
 from aiogram import Router, F
 from aiogram.types import CallbackQuery
 
-from keyboards import horoscope_get_sign, answer_keyboard
-from helpers import parser
+from tarotbot.keyboards import horoscope_get_sign, answer_keyboard
+from tarotbot.helpers import parser
 
 
 router = Router()

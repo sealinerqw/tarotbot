@@ -2,7 +2,7 @@ import asyncio
 import logging
 
 from aiogram import Bot, Dispatcher
-from handlers import start, horoscope
+from tarotbot.handlers import start, horoscope
 
 
 API_TOKEN = '8008718712:AAEE99ySiCGD_ZhEqLrTKPUZa6dbKgTkZW4'
