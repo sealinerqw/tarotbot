@@ -2,16 +2,18 @@ import asyncio
 import logging
 
 from aiogram import Bot, Dispatcher
+
+from tarotbot import api_key
 from tarotbot.handlers import start, horoscope
 
 
-API_TOKEN = '8008718712:AAEE99ySiCGD_ZhEqLrTKPUZa6dbKgTkZW4'
+
 
 logging.basicConfig(level=logging.INFO)
 
 
 async def main():
-    bot = Bot(token=API_TOKEN)
+    bot = Bot(token=api_key.API_TOKEN)
     dispatcher = Dispatcher()
 
     dispatcher.include_router(start.router)
